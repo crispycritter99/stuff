@@ -81,7 +81,7 @@
 <field>oW</field>
 <methodname>getCurrent</methodname>
 <desc>%sNode</desc>
-<descfield>LNode;</descfield>
+<descfield>Lpkhonor/tNy;</descfield>
 </add>
 <add>
 <accessor>Client</accessor>
