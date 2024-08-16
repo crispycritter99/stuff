@@ -417,7 +417,7 @@
     -->
 <add>
 <accessor>Client</accessor>
-<methodname>oW</methodname>
+<methodname>PsDw</methodname>
 <desc>(Ljava/lang/String;ILjava/lang/String;I)V</desc>
 <callclass>org/rev317/min/callback/MessageCallback</callclass>
 <callmethod>messageListenerHook</callmethod>
