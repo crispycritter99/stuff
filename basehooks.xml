@@ -271,7 +271,7 @@
 </add>
 <add>
 <accessor>Interface</accessor>
-<into>client</into>
+<into>Client</into>
 <field>PsDw</field>
 <methodname>getInterfaceCache</methodname>
 <desc>[%sInterface</desc>
@@ -285,7 +285,7 @@
 </add>
 <add>
 <accessor>Client</accessor>
-<into>client</into>
+<into>Client</into>
 <field>Vam</field>
 <methodname>isLoggedIn</methodname>
 <descfield>Z</descfield>
@@ -298,14 +298,14 @@
 </add>
 <add>
 <accessor>Client</accessor>
-<into>client</into>
+<into>Client</into>
 <field>DOd</field>
 <methodname>getLoopCycle</methodname>
 <descfield>I</descfield>
 </add>
 <add>
 <accessor>Client</accessor>
-<into>client</into>
+<into>Client</into>
 <field>PsDw</field>
 <methodname>getMyPlayer</methodname>
 <desc>%sPlayer</desc>
@@ -326,7 +326,7 @@
 </add>
 <add>
 <accessor>Client</accessor>
-<into>client</into>
+<into>Client</into>
 <field>ox</field>
 <methodname>getOpenInterfaceId</methodname>
 <descfield>I</descfield>
@@ -397,7 +397,7 @@
 <setters>
 <add>
 <accessor>Client</accessor>
-<into>client</into>
+<into>Client</into>
 <field>ox</field>
 <methodname>setInterface</methodname>
 <descfield>I</descfield>
