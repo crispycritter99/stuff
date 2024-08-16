@@ -404,6 +404,7 @@
 </add>
 </setters>
 <callbacks>
+   <!--
 <add>
 <accessor>Client</accessor>
 <methodname>doAction</methodname>
@@ -413,9 +414,10 @@
 <calldesc>(I)V</calldesc>
 <callargs>0</callargs>
 </add>
+  -->
 <add>
 <accessor>Client</accessor>
-<methodname>pushMessage</methodname>
+<methodname>oW</methodname>
 <desc>(Ljava/lang/String;ILjava/lang/String;)V</desc>
 <callclass>org/rev317/min/callback/MessageCallback</callclass>
 <callmethod>messageListenerHook</callmethod>
@@ -424,19 +426,22 @@
 </add>
 </callbacks>
 <invokers>
+ <!-- 
 <add>
 <accessor>Client</accessor>
 <methodname>doAction</methodname>
-<invokemethod>doAction</invokemethod>
+<invokemethod>cgwE</invokemethod>
 <desc>V</desc>
 <argsdesc>(I)</argsdesc>
 </add>
+  -->
 <add>
 <accessor>Client</accessor>
 <methodname>walkTo</methodname>
-<invokemethod>doWalkTo</invokemethod>
+<invokemethod>PsDw</invokemethod>
 <desc>Z</desc>
 <argsdesc>(IIIIIIIIIZI)</argsdesc>
 </add>
+  
 </invokers>
 </injector>
