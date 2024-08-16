@@ -232,13 +232,13 @@
 <descfield>I</descfield>
 </add>
 <add>
-<classname>pkhonor/QaOL/PsDw/wU</classname>
+<classname>pkhonor/QaOL/PsDw/PsDw</classname>
 <field>cX</field>
 <methodname>getHash</methodname>
 <descfield>I</descfield>
 </add>
 <add>
-<classname>pkhonor/QaOL/PsDw/PsDw</classname>
+<classname>pkhonor/QaOL/PsDw/wU</classname>
 <field>tc</field>
 <methodname>getHash</methodname>
 <descfield>I</descfield>
