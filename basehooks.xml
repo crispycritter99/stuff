@@ -434,7 +434,7 @@
 <desc>V</desc>
 <argsdesc>(I)</argsdesc>
 </add>
-  -->
+
 <add>
 <accessor>Client</accessor>
 <methodname>walkTo</methodname>
@@ -442,6 +442,6 @@
 <desc>Z</desc>
 <argsdesc>(IIIIIIIIIZI)</argsdesc>
 </add>
-  
+    -->
 </invokers>
 </injector>
