@@ -418,10 +418,10 @@
 <add>
 <accessor>Client</accessor>
 <methodname>oW</methodname>
-<desc>(Ljava/lang/String;ILjava/lang/String;)V</desc>
+<desc>(Ljava/lang/String;ILjava/lang/String;I)V</desc>
 <callclass>org/rev317/min/callback/MessageCallback</callclass>
 <callmethod>messageListenerHook</callmethod>
-<calldesc>(ILjava/lang/String;Ljava/lang/String;I)V</calldesc>
+<calldesc>(ILjava/lang/String;Ljava/lang/String;)V</calldesc>
 <callargs>1,2,0</callargs>
 </add>
 </callbacks>
