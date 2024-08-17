@@ -404,17 +404,17 @@
 </add>
 </setters>
 <callbacks>
-   <!--
+
 <add>
 <accessor>Client</accessor>
-<methodname>doAction</methodname>
+<methodname>cgwE</methodname>
 <desc>(I)V</desc>
 <callclass>org/rev317/min/callback/MenuAction</callclass>
 <callmethod>intercept</callmethod>
 <calldesc>(I)V</calldesc>
 <callargs>0</callargs>
 </add>
-    -->
+
 <add>
 <accessor>Client</accessor>
 <methodname>PsDw</methodname>
@@ -427,7 +427,7 @@
  
 </callbacks>
 <invokers>
- <!-- 
+
 <add>
 <accessor>Client</accessor>
 <methodname>doAction</methodname>
@@ -435,7 +435,7 @@
 <desc>V</desc>
 <argsdesc>(I)</argsdesc>
 </add>
-    -->
+
 <add>
 <accessor>Client</accessor>
 <methodname>walkTo</methodname>
