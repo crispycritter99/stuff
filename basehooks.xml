@@ -414,7 +414,7 @@
 <calldesc>(I)V</calldesc>
 <callargs>0</callargs>
 </add>
-<!--
+
 <add>
 <accessor>Client</accessor>
 <methodname>PsDw</methodname>
@@ -424,7 +424,7 @@
 <calldesc>(ILjava/lang/String;Ljava/lang/String;)V</calldesc>
 <callargs>1,2,0</callargs>
 </add>
-  -->
+
 </callbacks>
 <invokers>
 
