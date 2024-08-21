@@ -418,7 +418,7 @@
 <add>
 <accessor>Client</accessor>
 <methodname>PsDw</methodname>
-<desc>(Ljava/lang/String;ILjava/lang/String;)V</desc>
+<desc>(Ljava/lang/String;ILjava/lang/String;I)V</desc>
 <callclass>org/rev317/min/callback/MessageCallback</callclass>
 <callmethod>messageListenerHook</callmethod>
 <calldesc>(ILjava/lang/String;Ljava/lang/String;)V</calldesc>
