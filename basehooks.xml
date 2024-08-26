@@ -68,14 +68,6 @@
 <classname>pkhonor/Client</classname>
 <interface>Client</interface>
 </add>
-<add>
-<classname>pkhonor/Fc</classname>
-<interface>Varp</interface>
-</add>
-  <add>
-<classname>pkhonor/VOYf</classname>
-<interface>Varbit</interface>
-</add>
 </interfaces>
 <getters>
 <add>
