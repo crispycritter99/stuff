@@ -408,9 +408,9 @@
 <field>xv</field>
 <methodname>setAnimation</methodname>
 <descfield>I</descfield>
+  </add>
 </setters>
 <callbacks>
-</add>
 <add>
 <accessor>Client</accessor>
 <methodname>cgwE</methodname>
