@@ -402,9 +402,15 @@
 <methodname>setInterface</methodname>
 <descfield>I</descfield>
 </add>
+<add>
+<accessor>Character</accessor>
+<into>pkhonor/uFnU</into>
+<field>xv</field>
+<methodname>setAnimation</methodname>
+<descfield>I</descfield>
 </setters>
 <callbacks>
-
+</add>
 <add>
 <accessor>Client</accessor>
 <methodname>cgwE</methodname>
