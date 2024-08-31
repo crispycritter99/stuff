@@ -408,7 +408,7 @@
 <field>xv</field>
 <methodname>setAnimation</methodname>
 <descfield>I</descfield>
-  </add>
+</add>
 </setters>
 <callbacks>
 <add>
