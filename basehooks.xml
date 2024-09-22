@@ -188,6 +188,12 @@
 <descfield>I</descfield>
 </add>
 <add>
+<accessor>Character</accessor>
+<field>PsDw</field>
+<methodname>getOverheadTextMessage</methodname>
+<descfield>Ljava/lang/String;</descfield>
+</add>
+<add>
 <accessor>NpcDef</accessor>
 <field>tc</field>
 <methodname>getId</methodname>
