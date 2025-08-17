@@ -281,7 +281,7 @@
 <field>PsDw</field>
 <methodname>getInterfaceCache</methodname>
 <desc>[%sInterface</desc>
-<descfield>[Lpkhonor/jrhp;</descfield>
+<descfield>[Lpkhonor/goMH;</descfield>
 </add>
 <add>
 <accessor>Item</accessor>
@@ -458,4 +458,5 @@
 
 </invokers>
 </injector>
+
 
