@@ -315,7 +315,7 @@
 <field>PsDw</field>
 <methodname>getMyPlayer</methodname>
 <desc>%sPlayer</desc>
-<descfield>Lpkhonor/C;</descfield>
+<descfield>Lpkhonor/lXk;</descfield>
 </add>
 <add>
 <accessor>Client</accessor>
@@ -348,7 +348,7 @@
 <field>PsDw</field>
 <methodname>getPlayers</methodname>
 <desc>[%sPlayer</desc>
-<descfield>[Lpkhonor/C;</descfield>
+<descfield>[Lpkhonor/lXk;</descfield>
 </add>
 <add>
 <accessor>Client</accessor>
@@ -458,5 +458,6 @@
 
 </invokers>
 </injector>
+
 
 
