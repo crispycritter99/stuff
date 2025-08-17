@@ -13,7 +13,7 @@
 <interface>Deque</interface>
 </add>
 <add>
-<classname>pkhonor/jrhp</classname>
+<classname>pkhonor/goMH</classname>
 <interface>Interface</interface>
 </add>
 <add>
@@ -49,7 +49,7 @@
 <interface>SceneObjectTile</interface>
 </add>
 <add>
-<classname>pkhonor/C</classname>
+<classname>pkhonor/lXk</classname>
 <interface>Player</interface>
 </add>
 <add>
@@ -458,3 +458,4 @@
 
 </invokers>
 </injector>
+
