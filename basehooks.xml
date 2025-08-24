@@ -115,7 +115,7 @@
 </add>
 <add>
 <accessor>GameTimersData</accessor>
-<into>pkhonor/bB</into>
+<into>pkhonor/Client</into>
 <field>PsDw</field>
 <methodname>getEffectIds</methodname>
 <desc>Ljava/util/ArrayList;</desc>
@@ -123,7 +123,7 @@
 </add>
 <add>
 <accessor>GameTimersData</accessor>
-<into>pkhonor/bB</into>
+<into>pkhonor/Client</into>
 <field>oW</field>
 <methodname>getEffectTimes</methodname>
 <desc>Ljava/util/ArrayList;</desc>
@@ -485,6 +485,7 @@
 
 </invokers>
 </injector>
+
 
 
 
