@@ -114,22 +114,6 @@
 <descfield>Lpkhonor/bB;</descfield>
 </add>
 <add>
-<accessor>GameTimersData</accessor>
-<into>pkhonor/Client</into>
-<field>PsDw</field>
-<methodname>getEffectIds</methodname>
-<desc>Ljava/util/ArrayList;</desc>
-<descfield>Ljava/util/ArrayList;</descfield>
-</add>
-<add>
-<accessor>GameTimersData</accessor>
-<into>pkhonor/Client</into>
-<field>oW</field>
-<methodname>getEffectTimes</methodname>
-<desc>Ljava/util/ArrayList;</desc>
-<descfield>Ljava/util/ArrayList;</descfield>
-</add>  
-<add>
 <accessor>Deque</accessor>
 <field>PsDw</field>
 <methodname>getHead</methodname>
@@ -485,6 +469,7 @@
 
 </invokers>
 </injector>
+
 
 
 
