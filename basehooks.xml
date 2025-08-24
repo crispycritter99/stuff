@@ -13,10 +13,6 @@
 <interface>Deque</interface>
 </add>
 <add>
-<classname>pkhonor/cf</classname>
-<interface>RSApplet</interface>
-</add>  
-<add>
 <classname>pkhonor/bB</classname>
 <interface>GameTimersData</interface>
 </add>
@@ -489,6 +485,7 @@
 
 </invokers>
 </injector>
+
 
 
 
