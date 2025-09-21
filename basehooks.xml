@@ -465,12 +465,13 @@
   <add>
   <accessor>Client</accessor>
   <methodname>logout</methodname>
-  <invokemethod>Zuqh</invokemethod>
+  <invokemethod>Zuq</invokemethod>
   <desc>V</desc>
   <argsdesc>()</argsdesc>
 </add>
 </invokers>
 </injector>
+
 
 
 
