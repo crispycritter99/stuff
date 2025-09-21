@@ -455,9 +455,23 @@
 <desc>Z</desc>
 <argsdesc>(IIIIIIIIIZI)</argsdesc>
 </add>
-
+<add>
+  <accessor>Client</accessor>
+  <methodname>dropClient</methodname>
+  <invokemethod>DwSh</invokemethod>
+  <desc>V</desc>
+  <argsdesc>()</argsdesc>
+</add>
+  <add>
+  <accessor>Client</accessor>
+  <methodname>logout</methodname>
+  <invokemethod>Zuqh</invokemethod>
+  <desc>V</desc>
+  <argsdesc>()</argsdesc>
+</add>
 </invokers>
 </injector>
+
 
 
 
