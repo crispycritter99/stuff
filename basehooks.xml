@@ -106,29 +106,32 @@
 <methodname>getFlags</methodname>
 <descfield>[[I</descfield>
 </add>
-  <add>
-<accessor>Client</accessor>             
-<field>PsDw</field>
-<methodname>getGameEffects</methodname>
-<desc>Lpkhonor/bB;</desc>
-<descfield>Lpkhonor/bB;</descfield>
-</add>
+<!-- Client -> GameTimersData (return the interface type) -->
 <add>
-<accessor>GameTimersData</accessor>
-<into>pkhonor/Client</into>
-<field>PsDw</field>
-<methodname>getEffectIds</methodname>
-<desc>Ljava/util/ArrayList;</desc>
-<descfield>Ljava/util/ArrayList;</descfield>
+  <accessor>Client</accessor>
+  <field>PsDw</field>
+  <methodname>getGameEffects</methodname>
+  <!-- Method returns the *interface*; descfield is the obf field type -->
+  <desc>%sGameTimersData</desc>
+  <descfield>Lpkhonor/bB;</descfield>
 </add>
+
+<!-- GameTimersData accessors (read fields inside bB) -->
 <add>
-<accessor>GameTimersData</accessor>
-<into>pkhonor/Client</into>
-<field>oW</field>
-<methodname>getEffectTimes</methodname>
-<desc>Ljava/util/ArrayList;</desc>
-<descfield>Ljava/util/ArrayList;</descfield>
-</add> 
+  <accessor>GameTimersData</accessor>
+  <field>PsDw</field> <!-- in bB: IDs list -->
+  <methodname>getEffectIds</methodname>
+  <desc>Ljava/util/ArrayList;</desc>
+  <descfield>Ljava/util/ArrayList;</descfield>
+</add>
+
+<add>
+  <accessor>GameTimersData</accessor>
+  <field>oW</field>   <!-- in bB: times list -->
+  <methodname>getEffectTimes</methodname>
+  <desc>Ljava/util/ArrayList;</desc>
+  <descfield>Ljava/util/ArrayList;</descfield>
+</add>
 <add>
 <accessor>Deque</accessor>
 <field>PsDw</field>
@@ -498,6 +501,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
