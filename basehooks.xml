@@ -25,6 +25,10 @@
 <interface>Npc</interface>
 </add>
 <add>
+<classname>pkhonor/bB</classname>
+<interface>GameTimersData</interface>
+</add>
+<add>
 <classname>pkhonor/MvCa</classname>
 <interface>NpcDef</interface>
 </add>
@@ -102,6 +106,29 @@
 <methodname>getFlags</methodname>
 <descfield>[[I</descfield>
 </add>
+  <add>
+<accessor>Client</accessor>             
+<field>PsDw</field>
+<methodname>getGameEffects</methodname>
+<desc>Lpkhonor/bB;</desc>
+<descfield>Lpkhonor/bB;</descfield>
+</add>
+<add>
+<accessor>GameTimersData</accessor>
+<into>pkhonor/Client</into>
+<field>PsDw</field>
+<methodname>getEffectIds</methodname>
+<desc>Ljava/util/ArrayList;</desc>
+<descfield>Ljava/util/ArrayList;</descfield>
+</add>
+<add>
+<accessor>GameTimersData</accessor>
+<into>pkhonor/Client</into>
+<field>oW</field>
+<methodname>getEffectTimes</methodname>
+<desc>Ljava/util/ArrayList;</desc>
+<descfield>Ljava/util/ArrayList;</descfield>
+</add> 
 <add>
 <accessor>Deque</accessor>
 <field>PsDw</field>
@@ -471,6 +498,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
