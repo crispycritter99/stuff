@@ -499,8 +499,16 @@
   <desc>V</desc>
   <argsdesc>()</argsdesc>
 </add>
+  <add>
+  <accessor>GameTimersData</accessor>
+  <methodname>addOrUpdate</methodname>
+  <invokemethod>PsDw</invokemethod>
+  <desc>V</desc>
+  <argsdesc>(IJ)</argsdesc>
+</add>
 </invokers>
 </injector>
+
 
 
 
