@@ -388,6 +388,12 @@
 <add>
 <accessor>Client</accessor>
 <field>PsDw</field>
+<methodname>getGroundItems</methodname>
+<desc>[[[%sDeque</desc>
+<descfield>Lpkhonor/RKA;</descfield>
+</add>
+<accessor>Client</accessor>
+<field>oW</field>
 <methodname>getStationaryGraphics</methodname>
 <desc>[[[%sDeque</desc>
 <descfield>Lpkhonor/RKA;</descfield>
@@ -595,6 +601,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
