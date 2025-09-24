@@ -118,7 +118,7 @@
     <accessor>StationaryGraphic</accessor>
     <field>PsDw</field>
     <methodname>getAnimation</methodname>
-    <descfield>pkhonor/Zi;</descfield>
+    <descfield>Lpkhonor/Zi;</descfield>
   </add>
   <add>
     <accessor>StationaryGraphic</accessor>
@@ -566,6 +566,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
