@@ -392,6 +392,7 @@
 <desc>[[[%sDeque</desc>
 <descfield>Lpkhonor/RKA;</descfield>
 </add>
+<add>
 <accessor>Client</accessor>
 <field>oW</field>
 <methodname>getStationaryGraphics</methodname>
@@ -601,6 +602,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
