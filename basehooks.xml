@@ -379,11 +379,18 @@
 <descfield>[[[Lpkhonor/QaOL/oW/wU;</descfield>
 </add>
 <add>
+<accessor>Ground</accessor>
+<field>PsDw</field>
+<methodname>getGroundItem</methodname>
+<desc>%sSceneObjectTile</desc>
+<descfield>Lpkhonor/QaOL/PsDw/oW;</descfield>
+</add>
+<add>
 <accessor>Client</accessor>
 <field>PsDw</field>
-<methodname>getGroundItems</methodname>
+<methodname>getStationaryGraphics</methodname>
 <desc>[[[%sDeque</desc>
-<descfield>[[[Lpkhonor/RKA;</descfield>
+<descfield>Lpkhonor/RKA;</descfield>
 </add>
 <add>
 <accessor>Interface</accessor>
@@ -588,6 +595,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
