@@ -72,8 +72,66 @@
 <classname>pkhonor/Client</classname>
 <interface>Client</interface>
 </add>
+<add>
+<classname>pkhonor/gSop</classname>
+<interface>StationaryGraphic</interface>
+</add>
 </interfaces>
 <getters>
+<add>
+    <accessor>StationaryGraphic</accessor>
+    <field>wU</field>
+    <methodname>getX</methodname>
+    <descfield>I</descfield>
+  </add>
+  <add>
+    <accessor>StationaryGraphic</accessor>
+    <field>cX</field>
+    <methodname>getY</methodname>
+    <descfield>I</descfield>
+  </add>
+  <add>
+    <accessor>StationaryGraphic</accessor>
+    <field>oW</field>
+    <methodname>getZ</methodname>
+    <descfield>I</descfield>
+  </add>
+  <add>
+    <accessor>StationaryGraphic</accessor>
+    <field>cgwE</field>
+    <methodname>getDrawHeight</methodname>
+    <descfield>I</descfield>
+  </add>
+  <add>
+    <accessor>StationaryGraphic</accessor>
+    <field>QaOL</field>
+    <methodname>getLoopCycle</methodname>
+    <descfield>I</descfield>
+  </add>
+  <add>
+    <accessor>StationaryGraphic</accessor>
+    <field>PsDw</field>
+    <methodname>isFinished</methodname>
+    <descfield>Z</descfield>
+  </add>
+  <add>
+    <accessor>StationaryGraphic</accessor>
+    <field>PsDw</field>
+    <methodname>getAnimation</methodname>
+    <descfield>pkhonor/Zi;</descfield>
+  </add>
+  <add>
+    <accessor>StationaryGraphic</accessor>
+    <field>GJ</field>
+    <methodname>getElapsedFrames</methodname>
+    <descfield>I</descfield>
+  </add>
+  <add>
+    <accessor>StationaryGraphic</accessor>
+    <field>FJD</field>
+    <methodname>getDuration</methodname>
+    <descfield>I</descfield>
+  </add>
 <add>
 <accessor>Character</accessor>
 <field>xv</field>
@@ -508,6 +566,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
