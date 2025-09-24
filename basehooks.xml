@@ -76,8 +76,30 @@
 <classname>pkhonor/gSop</classname>
 <interface>StationaryGraphic</interface>
 </add>
+<add>
+<classname>pkhonor/Zi</classname>
+<interface>SpotAnimation</interface>
+</add>
 </interfaces>
 <getters>
+<add>
+    <accessor>SpotAnimation</accessor>
+    <field>PsDw</field>
+    <methodname>getId</methodname>
+    <descfield>I</descfield>
+  </add>
+  <add>
+    <accessor>SpotAnimation</accessor>
+    <field>oW</field>
+    <methodname>getModelId</methodname>
+    <descfield>I</descfield>
+  </add>
+  <add>
+    <accessor>SpotAnimation</accessor>
+    <field>wU</field>
+    <methodname>getAnimationId</methodname>
+    <descfield>I</descfield>
+  </add>    
 <add>
     <accessor>StationaryGraphic</accessor>
     <field>wU</field>
@@ -566,6 +588,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
