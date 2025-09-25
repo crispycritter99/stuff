@@ -527,7 +527,6 @@
 <methodname>getSettings</methodname>
 <descfield>[I</descfield>
 </add>
-<getters>
   <!-- Timing -->
   <add><accessor>Projectile</accessor><field>oW</field>      <methodname>getDelay</methodname>          <descfield>I</descfield></add>
   <add><accessor>Projectile</accessor><field>wU</field>   <methodname>getEndCycle</methodname>       <descfield>I</descfield></add>
@@ -570,7 +569,6 @@
     <descfield>Lpkhonor/Zi;</descfield> <!-- replace if your SpotAnimation obf differs -->
   </add>
   <add><accessor>Projectile</accessor><field>GB</field><methodname>getAnimFrame</methodname><descfield>I</descfield></add>
-</getters>
 
 </getters>
 <setters>
@@ -651,6 +649,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
