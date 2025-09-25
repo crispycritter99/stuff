@@ -80,6 +80,10 @@
 <classname>pkhonor/Zi</classname>
 <interface>SpotAnimation</interface>
 </add>
+<add>
+<classname>pkhonor/ulrH</classname>
+<interface>Projectile</interface>
+</add>
 </interfaces>
 <getters>
 <add>
@@ -393,6 +397,13 @@
 <descfield>Lpkhonor/RKA;</descfield>
 </add>
 <add>
+<accessor>Client</accessor>
+<field>projectileQueue</field>          <!-- replace with the obf name if different -->
+<methodname>getProjectiles</methodname>
+<desc>%sDeque</desc>
+<descfield>Lpkhonor/RKA;</descfield>    <!-- your Deque impl -->
+  </add>    
+<add>
 <accessor>Interface</accessor>
 <into>pkhonor/Client</into>
 <field>PsDw</field>
@@ -516,6 +527,51 @@
 <methodname>getSettings</methodname>
 <descfield>[I</descfield>
 </add>
+<getters>
+  <!-- Timing -->
+  <add><accessor>Projectile</accessor><field>oW</field>      <methodname>getDelay</methodname>          <descfield>I</descfield></add>
+  <add><accessor>Projectile</accessor><field>wU</field>   <methodname>getEndCycle</methodname>       <descfield>I</descfield></add>
+  <add><accessor>Projectile</accessor><field>OFz</field>   <methodname>getDuration</methodname>       <descfield>I</descfield></add>
+
+  <!-- Start / end (world coords) -->
+  <add><accessor>Projectile</accessor><field>FJD</field>     <methodname>getStartX</methodname>         <descfield>I</descfield></add>
+  <add><accessor>Projectile</accessor><field>JTjA</field>     <methodname>getStartY</methodname>         <descfield>I</descfield></add>
+  <add><accessor>Projectile</accessor><field>bA</field>     <methodname>getStartZ</methodname>         <descfield>I</descfield></add>
+  <add><accessor>Projectile</accessor><field>cX</field>       <methodname>getEndZ</methodname>           <descfield>I</descfield></add>
+
+  <!-- Current position (world coords; usually doubles) -->
+  <add><accessor>Projectile</accessor><field>PsDw</field>   <methodname>getCurrentX</methodname>       <descfield>D</descfield></add>
+  <add><accessor>Projectile</accessor><field>oW</field>   <methodname>getCurrentY</methodname>       <descfield>D</descfield></add>
+  <add><accessor>Projectile</accessor><field>wU</field>   <methodname>getCurrentZ</methodname>       <descfield>D</descfield></add>
+
+  <!-- Trajectory / kinematics -->
+  <add><accessor>Projectile</accessor><field>dI</field>    <methodname>getStartSlope</methodname>   <descfield>I</descfield></add>
+  <add><accessor>Projectile</accessor><field>tc</field> <methodname>getStartDistance</methodname><descfield>I</descfield></add>
+  <add><accessor>Projectile</accessor><field>cX</field>  <methodname>getSpeedX</methodname>       <descfield>D</descfield></add>
+  <add><accessor>Projectile</accessor><field>cgwE</field>  <methodname>getSpeedY</methodname>       <descfield>D</descfield></add>
+  <add><accessor>Projectile</accessor><field>GJ</field>  <methodname>getSpeedZ</methodname>       <descfield>D</descfield></add>
+  <add><accessor>Projectile</accessor><field>QaOL</field>   <methodname>getSpeedScalar</methodname>  <descfield>D</descfield></add>
+  <add><accessor>Projectile</accessor><field>FJD</field>       <methodname>getOffsetZ</methodname>      <descfield>D</descfield></add>
+  <add><accessor>Projectile</accessor><field>PsDw</field>        <methodname>isMoving</methodname>        <descfield>Z</descfield></add>
+
+  <!-- Targeting -->
+  <add><accessor>Projectile</accessor><field>cgwE</field>      <methodname>getTargetId</methodname>     <descfield>I</descfield></add>
+  <add><accessor>Projectile</accessor><field>GJ</field>         <methodname>getPlane</methodname>        <descfield>I</descfield></add>
+
+  <!-- Orientation -->
+  <add><accessor>Projectile</accessor><field>QaOL</field>     <methodname>getRotationY</methodname>    <descfield>I</descfield></add>
+  <add><accessor>Projectile</accessor><field>gvj</field>     <methodname>getRotationX</methodname>    <descfield>I</descfield></add>
+
+  <!-- Spot animation (gfx) -->
+  <add>
+    <accessor>Projectile</accessor>
+    <field>PsDw</field>
+    <methodname>getSpotAnimation</methodname>
+    <descfield>Lpkhonor/Zi;</descfield> <!-- replace if your SpotAnimation obf differs -->
+  </add>
+  <add><accessor>Projectile</accessor><field>animationFrame</field><methodname>getAnimFrame</methodname><descfield>I</descfield></add>
+</getters>
+
 </getters>
 <setters>
 <add>
@@ -595,6 +651,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
