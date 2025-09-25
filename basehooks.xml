@@ -569,7 +569,7 @@
     <methodname>getSpotAnimation</methodname>
     <descfield>Lpkhonor/Zi;</descfield> <!-- replace if your SpotAnimation obf differs -->
   </add>
-  <add><accessor>Projectile</accessor><field>animationFrame</field><methodname>getAnimFrame</methodname><descfield>I</descfield></add>
+  <add><accessor>Projectile</accessor><field>GB</field><methodname>getAnimFrame</methodname><descfield>I</descfield></add>
 </getters>
 
 </getters>
@@ -651,6 +651,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
