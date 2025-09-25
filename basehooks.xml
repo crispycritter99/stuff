@@ -387,7 +387,7 @@
 <field>PsDw</field>
 <methodname>getGroundItems</methodname>
 <desc>[[[%sDeque</desc>
-<descfield>Lpkhonor/RKA;</descfield>
+<descfield>[[[Lpkhonor/RKA;</descfield>
 </add>
 <add>
 <accessor>Client</accessor>
@@ -398,7 +398,7 @@
 </add>
 <add>
 <accessor>Client</accessor>
-<field>projectileQueue</field>          <!-- replace with the obf name if different -->
+<field>PsDw</field>          <!-- replace with the obf name if different -->
 <methodname>getProjectiles</methodname>
 <desc>%sDeque</desc>
 <descfield>Lpkhonor/RKA;</descfield>    <!-- your Deque impl -->
@@ -649,6 +649,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
