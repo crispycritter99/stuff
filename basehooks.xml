@@ -144,6 +144,7 @@
     <accessor>StationaryGraphic</accessor>
     <field>PsDw</field>
     <methodname>getAnimation</methodname>
+    <desc>%sSpotAnimation</desc>  
     <descfield>Lpkhonor/Zi;</descfield>
   </add>
   <add>
@@ -566,6 +567,7 @@
     <accessor>Projectile</accessor>
     <field>PsDw</field>
     <methodname>getSpotAnimation</methodname>
+      <desc>%sSpotAnimation</desc>
     <descfield>Lpkhonor/Zi;</descfield> <!-- replace if your SpotAnimation obf differs -->
   </add>
   <add><accessor>Projectile</accessor><field>GB</field><methodname>getAnimFrame</methodname><descfield>I</descfield></add>
@@ -649,6 +651,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
