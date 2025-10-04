@@ -316,6 +316,13 @@
 <descfield>I</descfield>
 </add>
 <add>
+<accessor>NpcDef</accessor>
+<field>bA</field>
+<methodname>getHeadIcon</methodname>
+<desc>I</desc>
+<descfield>I</descfield>
+</add>
+<add>
 <accessor>Client</accessor>
 <field>PsDw</field>
 <methodname>getCollisionMap</methodname>
@@ -651,6 +658,7 @@
 </add>
 </invokers>
 </injector>
+
 
 
 
